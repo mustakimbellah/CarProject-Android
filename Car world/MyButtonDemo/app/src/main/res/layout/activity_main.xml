@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7305C"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/loginButtonId"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_name"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/login"
+
+        />
+    <Button
+        android:id="@+id/logoutButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button_name"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/logout"
+        />
+
+  </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

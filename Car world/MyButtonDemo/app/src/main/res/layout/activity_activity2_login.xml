@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7305C"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    tools:context=".Activity2_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textStyle="italic"
+
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/textView3"
+        />
+
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Default way" />
+
+    <Button
+        android:id="@+id/btn_budget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Budget Based Way" />
+
+    <Button
+        android:id="@+id/btn_brand"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Brand Based Way" />
+
+    <Button
+        android:id="@+id/btn_cc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="CC Based Way" />
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kamanashis.biswas.mybuttondemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity13_1c"
+            android:screenOrientation="sensor"></activity>
+        <activity android:name=".Activity12_80m_1c"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".Activity11_50_80m"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".Activity10_35_50m"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".Activity9_25_35m"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity8_15_25m"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity7_5_15M"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity6_cc_way"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity5_brand_way"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity4_budget_way"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity3_default_way"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Activity2_login"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

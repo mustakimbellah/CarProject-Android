@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7305C"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity10_35_50m">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:textColor="#0C0000"
+        android:text="@string/textView2"
+        />
+
+    <Button
+        android:id="@+id/btn_5_15m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Toyota" />
+
+    <Button
+        android:id="@+id/btn_15_25m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Marusity" />
+
+    <Button
+        android:id="@+id/btn_25_35m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Mitsubishi" />
+
+    <Button
+        android:id="@+id/btn_35_50m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Honda" />
+    <Button
+        android:id="@+id/btn_50_80m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Hyundai" />
+
+    <Button
+        android:id="@+id/btn_80m_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="KIA" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Ford" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Tata" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Lexus" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Range Rover" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="BMW" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Mercedes" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Audi" />
+
+    <Button
+        android:id="@+id/btn_1c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="Porsche" />
+
+</LinearLayout>

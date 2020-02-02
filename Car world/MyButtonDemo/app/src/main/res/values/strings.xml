@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">One Dream Project</string>
+    <string name="login_button_name">Login</string>
+    <string name="logout_button_name">Logout</string>
+    <string name="default_button_name">Default</string>
+    <string name="budget_button_name">Budget</string>
+    <string name="brand_button_name">Brnd</string>
+    <string name="cc_button_name">Logout</string>
+    <string name="textView">Select Your Budge Range...........</string>
+    <string name="textView2">Select Your Brand...........</string>
+    <string name="textView3">Welcome to CAR World </string>
+</resources>
